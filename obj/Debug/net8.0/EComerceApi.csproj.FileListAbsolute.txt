@@ -163,3 +163,9 @@ C:\Users\Junior\Desktop\dev\EComerceApi\obj\Debug\net8.0\refint\EComerceApi.dll
 C:\Users\Junior\Desktop\dev\EComerceApi\obj\Debug\net8.0\EComerceApi.pdb
 C:\Users\Junior\Desktop\dev\EComerceApi\obj\Debug\net8.0\EComerceApi.genruntimeconfig.cache
 C:\Users\Junior\Desktop\dev\EComerceApi\obj\Debug\net8.0\ref\EComerceApi.dll
+C:\Users\Junior\Desktop\dev\EComerceApi\bin\Debug\net8.0\Microsoft.OpenApi.dll
+C:\Users\Junior\Desktop\dev\EComerceApi\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\Junior\Desktop\dev\EComerceApi\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\Junior\Desktop\dev\EComerceApi\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\Junior\Desktop\dev\EComerceApi\obj\Debug\net8.0\EComerceApi.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Junior\Desktop\dev\EComerceApi\obj\Debug\net8.0\EComerceApi.sourcelink.json

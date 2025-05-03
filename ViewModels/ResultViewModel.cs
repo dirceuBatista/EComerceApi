@@ -31,7 +31,7 @@ namespace EComerceApi.ViewModels;
             Errors.Add(error);
         }
 
-       
+     
 
 
         public T Data { get; private set; }
