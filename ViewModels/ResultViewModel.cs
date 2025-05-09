@@ -4,8 +4,7 @@ namespace EComerceApi.ViewModels;
 
     public class ResultViewModel<T>
     {
-    
-
+        
         public ResultViewModel(T data , List<string> errors)
         {
             Success = false;

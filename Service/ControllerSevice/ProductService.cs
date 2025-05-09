@@ -37,7 +37,7 @@ public class ProductService(AppDbContext context, IMapper mapper)
                 .FirstOrDefaultAsync(x => x.Id == id);
             if (product == null)
                 return new ResultViewModel<ProductViewModel>(
-                    "Usuario não encontrado");
+                    "Produto não encontrado");
             var productsDto = _mapper.Map<ProductViewModel>(product);
             return new ResultViewModel<ProductViewModel>(productsDto);
         }
@@ -148,8 +148,8 @@ public class ProductService(AppDbContext context, IMapper mapper)
         }
         catch (Exception e)
         {
-            Console.WriteLine(e);
-            throw;
+            return new ResultViewModel<ProductViewModel>(
+                $"Erro Interno{e.Message}");
         }
     }
 }

@@ -1,6 +1,7 @@
 using EComerceApi.Extensions;
 using EComerceApi.Service.ControllerSevice;
 using EComerceApi.ViewModels;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace EComerceApi.Controller;
@@ -79,6 +80,7 @@ public class ProductController(ProductService product) : ControllerBase
             return Conflict(new { erros = create.Errors });
         return Ok(create.Data );
     }
+    
     /// <summary>
     /// Atualizar um produto
     /// </summary>
@@ -103,6 +105,7 @@ public class ProductController(ProductService product) : ControllerBase
             return Conflict(new { erros = result.Errors });
         return Ok(result);
     }
+    
     /// <summary>
     /// Deletar um produto
     /// </summary>
